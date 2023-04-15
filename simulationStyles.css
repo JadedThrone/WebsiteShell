@@ -11,7 +11,7 @@ body {
 .navBar {
     width: 100%;
     position: sticky;
-    top: 0;
+    top: 0; 
     height: auto;
     float: left;
     background-color: #E1C1CD;
