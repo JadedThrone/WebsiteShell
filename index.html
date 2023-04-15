@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="simulationStyles.css">
   <title>Gender Equality in STEM</title>
   <div id="ladybugs-container">
     <img src="/images/ladybugTest.png" class="ladybug" alt="Ladybug" />
@@ -28,7 +27,13 @@
 
 /* Apply the animation to the ladybug image */
 .ladybug {
+  position:absolute;
   animation: crawl 10s linear infinite;
+  top:0;
+  left:0;
+  width: 50px;
+  height: 50px;
+  animation: bounce 2sc linear infinite;
 }
     /* CSS style for body */
     body {
@@ -36,7 +41,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url(MoreClouds.jpg) ;
+    
     }
     
     /* CSS style for header */
@@ -71,8 +76,9 @@
 
     /* CSS style for footer */
     footer {
-      background-color: #edd2dc;
-      color: #fae2e9;
+      background-color: #fae2e9;
+      background-image: url(clouds.jpg);
+      color: #171617;
       padding: 20px;
       text-align: center;
     }
@@ -81,6 +87,7 @@
     a {
       color: #5c5959;
       text-decoration: none;
+      font-family: 'Courier New', Courier, monospace;
     }
 
     /* CSS style for link on hover */
@@ -97,9 +104,10 @@
 
     /* CSS style for individual page link */
     .page-link {
-      color: #fff;
+      color: #5c5959;
       margin-left: 10px;
-      text-decoration: none;
+      text-decoration: pi;
+  
     }
 
     /* CSS style for individual page link on hover */
@@ -110,20 +118,22 @@
     /* CSS style for image */
     .image {
       max-width: 100%;
-      height: auto;
+      height: 500;
     }
 
   
   </style>
+
+<!--Ladybug Script-->
   <script>
     var ladybugs = document.getElementsByClassName('ladybug');
     for (var i = 0; i < ladybugs.length; i++) {
       ladybugs[i].style.animationDelay = i * 2 + 's'; // set different delays for each ladybug
   }
+
   </script>
 </head>
 <body>
-  <div class = "navBar">
 
     <ul>
       <li style="float:left"><div class = "mainLogo">Lady Coders</div></li>
@@ -133,8 +143,9 @@
     </ul>
     </div>
   <header>
+    <h1>Lady Coders</h1>
     <p>Empowering and promoting women in Science, Technology, Engineering, and Mathematics fields.</p>
-    <img src="/images/hardware.jpg" height="400" width="700"/>
+    <img src="hardware.jpg" height="400" width="700"/>
 
   </header>
   <div class="content">
