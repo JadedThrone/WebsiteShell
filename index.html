@@ -28,6 +28,7 @@
 /* Apply the animation to the ladybug image */
 .ladybug {
   position:absolute;
+  z-index:10;
   animation: crawl 10s linear infinite;
   top:0;
   left:0;
@@ -48,7 +49,7 @@
     header {
       background-color: #e1c1cd;
       color: #5c5959;
-      padding: 20px;
+      padding: 0px;
       text-align: center;
       background-image: url(clouds.jpg);
     }
@@ -72,6 +73,7 @@
       font-size: 18px;
       line-height: 1.5;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: #463348
     }
 
     /* CSS style for footer */
@@ -120,6 +122,10 @@
       max-width: 100%;
       height: 500;
     }
+    .tagline{
+      color:white;
+      float: left;
+    }
 
   
   </style>
@@ -145,8 +151,8 @@
     </ul>
     </div>
   <header>
-    <p>Empowering and promoting women in Science, Technology, Engineering, and Mathematics fields.</p>
-    <img src="./images/hardware.jpg" height="400" width="700"/>
+    <p class="tagline">Empowering and promoting women in Science, Technology, Engineering, and Mathematics fields.</p>
+    <img style="opacity:85%" src="./images/hardwareCropped.jpg" height="400" width="100%"/>
 
   </header>
   <div class="content">
