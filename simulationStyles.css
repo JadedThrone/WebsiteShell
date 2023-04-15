@@ -6,27 +6,54 @@ body {
   }
 
 .navBar {
-    float: right;
     width: 100%;
+    height: auto;
     float: left;
     background-color: #E1C1CD;
     font-family: Arial, sans-serif;
     color:azure;
+    
+  }
+  ul{
+    list-style-type: none;
+    height: auto;
+    margin-top:0px;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: #CB94A8;
+    font-family: "Courier New";
+    font-size: 25px;
+    border-radius: 10px;
+    opacity: 50%;
+  }
+.mainLogo{
+    position: relative;
+    font-family: "Roboto Slab";
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 
   }
 
-.button-link{
+  .textBar{
     display: block;
-    padding: 8px;
-    background-color: #CB94A8;
-    color:azure;
-
-}
-
-.headerBar{
-    color: #CB94A8;
-    font-family: "Courier New";
-    background-color: white;
     width: 100%;
-    position: center;
-}
+    color: #CB94A8;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    font-family: "Courier New";
+    font-size: 50px;
+  }
+
