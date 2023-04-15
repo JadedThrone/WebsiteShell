@@ -18,6 +18,8 @@ body {
     font-family: Arial, sans-serif;
     color:azure;
     z-index:10;
+    box-shadow: 0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.3);
+    border-radius: 10px;
     
     
   }

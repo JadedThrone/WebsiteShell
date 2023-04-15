@@ -5,139 +5,13 @@
   <div id="ladybugs-container">
     <img src="/images/ladybugTest.png" class="ladybug" alt="Ladybug" />
   </div>
-  <style>
-     .ladybug {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-
-}
-@keyframes crawl {
-  0% {
-    /* initial position of ladybug */
-    top: 0;
-    left: 0;
-  }
-  100% {
-    /* final position of ladybug */
-    top: 100%;
-    left: 100%;
-  }
-}
-
-/* Apply the animation to the ladybug image */
-.ladybug {
-  position:absolute;
-  z-index:10;
-  animation: crawl 10s linear infinite;
-  top:0;
-  left:0;
-  width: 50px;
-  height: 50px;
-  animation: bounce 2sc linear infinite;
-}
-    /* CSS style for body */
-    body {
-      background-color: #fae2e9;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    
-    }
-    
-    /* CSS style for header */
-    header {
-      background-color: #e1c1cd;
-      color: #5c5959;
-      padding: 0px;
-      text-align: center;
-      background-image: url(clouds.jpg);
-    }
-
-    /* CSS style for main content */
-    .content {
-      margin: 20px;
-    }
-
-    /* CSS style for heading */
-    h1 {
-      font-size: 36px;
-      margin: 0;
-      padding: 10px;
-      color: #5c5959;
-      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    }
-
-    /* CSS style for paragraph */
-    p {
-      font-size: 18px;
-      line-height: 1.5;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      color: #463348
-    }
-
-    /* CSS style for footer */
-    footer {
-      background-color: #fae2e9;
-      background-image: url(clouds.jpg);
-      color: #171617;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* CSS style for link */
-    a {
-      color: #5c5959;
-      text-decoration: none;
-      font-family: 'Courier New', Courier, monospace;
-    }
-
-    /* CSS style for link on hover */
-    a:hover {
-      text-decoration: underline;
-    }
-
-    /* CSS style for page links in top right corner */
-    .page-links {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-
-    /* CSS style for individual page link */
-    .page-link {
-      color: #5c5959;
-      margin-left: 10px;
-      text-decoration: pi;
-  
-    }
-
-    /* CSS style for individual page link on hover */
-    .page-link:hover {
-      text-decoration: underline;
-    }
-
-    /* CSS style for image */
-    .image {
-      max-width: 100%;
-      height: 500;
-    }
-    .tagline{
-      margin: 30px;
-      color:white;
-      float: left;
-    }
-
-  
-  </style>
-
+  <link rel="stylesheet" href="index.css">
 <!--Ladybug Script-->
   <script>
     var ladybugs = document.getElementsByClassName('ladybug');
     for (var i = 0; i < ladybugs.length; i++) {
       ladybugs[i].style.animationDelay = i * 2 + 's'; // set different delays for each ladybug
   }
-
   </script>
   <link rel="stylesheet" href="simulationStyles.css">
 </head>
@@ -147,13 +21,14 @@
     <ul>
       <li style="float:left"><div class = "mainLogo">Lady Coders</div></li>
       <li><a class="button-link" href="resource.html">Get Involved</a></li>
+      <li><a class="button-link" href="playground.html">Coding Playground</a></li>
       <li><a class="button-link" href="simulation.html">Simulation</a></li>
       <li><a class="button-link" href="index.html">Home</a></li>
     </ul>
     </div>
   <header>
-    <p class="tagline">Empowering and promoting women in Science, Technology, Engineering, and Mathematics fields.</p>
-    <img style="opacity:85%" src="./images/hardwareCropped.jpg" height="400" width="100%"/>
+    <p class="tagline">Empowering and promoting women in Science, Technology, Engineering, and Mathematics.</p>
+    <img class="mainPageImage" src="./images/hardwareCropped.jpg" height="400" width="100%"/>
 
   </header>
   <div class="content">
@@ -164,12 +39,18 @@
     <h2>Resources</h2>
     <p>Explore our collection of resources, including articles, videos, and inspirational stories, to learn more about the importance of gender equality in STEM and ways to promote diversity and inclusion.</p>
     <h2>Interactive Learning</h2>
-    <p>Practice coding with some of the puzzles below!</p>
+    <p>Practice coding with our coding playground! We also plan on adding coding puzzles to our website soon, so stay tuned!</p>
     <p>Additionally, be sure to check out our #WomenInSTEM Simulation!</p>
     <h2>Statistics</h2>
-    <img class="image" src="/images/PinkComputer.jpg" alt="Gender Equality in STEM " width="900" height="550"/>
-    
+    <img class="image" src="/images/PinkComputer.jpg" alt="Gender Equality in STEM " width="100%" height="auto"/>
   </div>
+</body>
+
+<!-- Coding playground-->
+<div class = "codingPlayground">
+
+</div>
+
   <footer>
     <p>We hope you are as excited about gender equality as we are!</p>
   </footer>

@@ -1,0 +1,112 @@
+.ladybug {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  
+  }
+  @keyframes crawl {
+    0% {
+      /* initial position of ladybug */
+      top: 0;
+      left: 0;
+    }
+    100% {
+      /* final position of ladybug */
+      top: 100%;
+      left: 100%;
+    }
+  }
+  
+  /* Apply the animation to the ladybug image */
+  .ladybug {
+    position:absolute;
+    z-index:10;
+    animation: crawl 10s linear infinite;
+    top:0;
+    left:0;
+    width: 50px;
+    height: 50px;
+    animation: bounce 2sc linear infinite;
+  }
+  .mainPageImage{
+    opacity:85%;
+    border-radius: 20px;
+  }
+      /* CSS style for body */
+      body {
+        background-color: #fae2e9;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      
+      }
+      
+      /* CSS style for header */
+      header {
+        background-color: #b59db8;
+        color: #5c5959;
+        padding: 0px;
+        text-align: center;
+        background-image: url(clouds.jpg);
+      }
+  
+      /* CSS style for main content */
+      .content {
+        margin: 20px;
+      }
+  
+      /* CSS style for heading */
+      h1 {
+        font-size: 36px;
+        margin: 0;
+        padding: 0px;
+        color: #5c5959;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      }
+  
+      /* CSS style for paragraph */
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #463348
+      }
+  
+      /* CSS style for footer */
+      footer {
+        background-color: #fae2e9;
+        background-image: url(clouds.jpg);
+        color: #171617;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      /* CSS style for link */
+      a {
+        color: #5c5959;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+      }
+  
+      /* CSS style for link on hover */
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* CSS style for individual page link on hover */
+      .page-link:hover {
+        text-decoration: underline;
+      }
+  
+      /* CSS style for image */
+      .image {
+        max-width: 100%;
+        height: 500;
+      }
+      .tagline{
+        margin: 30px;
+        color:white;
+        float: left;
+      }
+  
+    
