@@ -4,20 +4,28 @@ body {
     margin: 0;
     padding: 0;
   }
+  .image{
+    opacity: 80%;
+}
 
 .navBar {
     width: 100%;
+    position: sticky;
+    top: 0;
     height: auto;
     float: left;
     background-color: #E1C1CD;
     font-family: Arial, sans-serif;
     color:azure;
+    z-index:10;
+    
     
   }
   ul{
     list-style-type: none;
     height: auto;
     margin-top:0px;
+    
   }
   li {
     float: right;
@@ -29,6 +37,8 @@ body {
     padding: 14px 16px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-decoration: none;
     background-color: #CB94A8;
     font-family: "Courier New";
@@ -36,6 +46,10 @@ body {
     border-radius: 10px;
     opacity: 50%;
   }
+  li a:hover {
+    opacity: 80%;
+  }
+
 .mainLogo{
     position: relative;
     font-family: "Roboto Slab";
