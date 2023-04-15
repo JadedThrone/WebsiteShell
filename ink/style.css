@@ -16,12 +16,7 @@ h2 {
     text-align: center;
     font-family: "Quattrocento", Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-    padding: 0;
-}
-
-h1 {
-    font-size: 30pt;
-    margin-bottom: 10px;
+    padding: 0px;
 }
 
 h2 {
@@ -30,10 +25,12 @@ h2 {
     font-family: sans-serif;
     font-weight: lighter;
     color: #BBB;
+    padding: 0px;
+    margin: 0px
 }
 
 .header {
-    padding-top: 3em;
+    padding-top: 0px;
     padding-bottom: 3em;
 }
 
@@ -50,15 +47,13 @@ h2 {
     font-size: 9pt;
     font-family: sans-serif;
     text-align: center;
-    font-weight: 700;
+    font-weight: 200;
     position: relative;
     display: block;
     width: 100%;
     background: white;
     transition: color 0.6s, background 0.6s;
     margin: 0;
-    padding-top: 6px;
-    padding-bottom: 6px;
     height: 14px;
     top: 0;
 }
@@ -78,7 +73,7 @@ h2 {
     width: 100%;
     top: 0;
     left: 0;
-    margin-top: 24px;
+    margin-top: 10px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,7 +91,7 @@ h2 {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    padding-top: 4em;
+    padding-top: 0;
     background: white;
 }
 
@@ -113,7 +108,7 @@ p {
 
 .inkContainer a {
     font-weight: 700;
-    color: #ffffff;
+    color: #714e4e;
     font-family: sans-serif;
     transition: color 0.6s;
     text-decoration: none;
@@ -187,7 +182,7 @@ img {
     z-index: 4;
     font-size: 9pt;
     text-align: center;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     position: relative;
     right: 14px;
     top: 4px;
@@ -220,7 +215,7 @@ img {
 */
 
 body.dark {
-    background: black;
+    background: #302830;
     color: white;
 }
 
@@ -229,15 +224,15 @@ body.dark {
 }
 
 .dark .container {
-    background: black;
+    background: #302830;
 }
 
 .dark .written-in-ink {
-    background: black;
+    background: #302830;
 }
 
 .dark a {
-    color: #cc8f1a;
+    color: #CB94A8;
     transition: color 0.6s;
 }
 
@@ -258,5 +253,5 @@ body.dark {
 }
 
 .dark #controls {
-    background: black;
+    background: #302830;
 }
