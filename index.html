@@ -80,6 +80,7 @@
     a {
       color: #5c5959;
       text-decoration: none;
+      font-family: 'Courier New', Courier, monospace;
     }
 
     /* CSS style for link on hover */
@@ -96,9 +97,10 @@
 
     /* CSS style for individual page link */
     .page-link {
-      color: #fff;
+      color: #5c5959;
       margin-left: 10px;
-      text-decoration: none;
+      text-decoration: pi;
+  
     }
 
     /* CSS style for individual page link on hover */
@@ -109,23 +111,27 @@
     /* CSS style for image */
     .image {
       max-width: 100%;
-      height: auto;
+      height: 500;
     }
 
   
   </style>
+
+<!--Ladybug Script-->
   <script>
     var ladybugs = document.getElementsByClassName('ladybug');
     for (var i = 0; i < ladybugs.length; i++) {
       ladybugs[i].style.animationDelay = i * 2 + 's'; // set different delays for each ladybug
   }
+
   </script>
 </head>
 <body>
   <header>
     <h1>Lady Coders</h1>
     <p>Empowering and promoting women in Science, Technology, Engineering, and Mathematics fields.</p>
-    <img src="hardware.jpg" height="400" width="700"/>
+
+  <img src="hardware.jpg" height="500" width="100%"/>
 
   </header>
   <div class="content">
