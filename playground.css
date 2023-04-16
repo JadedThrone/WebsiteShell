@@ -117,3 +117,20 @@ code-input {
     width: 100%;
     height: 100%;
   }
+  h1 {
+    display: block;
+    width: 100%;
+    color: #CB94A8;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    font-family: "Courier New";
+    font-size: 50px;
+  }
+  .description{
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  margin: 20px;
+
+    color: #5c4558
+  }
