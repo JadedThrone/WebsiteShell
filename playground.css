@@ -2,6 +2,10 @@
 /* By WebCoder49 */
 /* First Published on CSS-Tricks.com */
 
+.textEditors{
+  display: flex;
+  height: 100%;
+}
 
 code-input {
     /* Allow other elems to be inside */
@@ -14,9 +18,9 @@ code-input {
   
     /* Normal inline styles */
     padding: 8px;
-    margin: 0!important;
+    margin: 5!important;
 
-    width: 100%;
+    width: 25%!important;
     height: 100%;
     font-size: normal;
     font-family: monospace;
