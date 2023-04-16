@@ -54,12 +54,14 @@
         a {
           color: #ad4fb2;
           text-decoration: none;
+          font-weight: bold;
         }
     
         /* CSS style for link on hover */
         a:hover {
-          color: #f4bcce;
-          text-decoration: underline;
+          color: #5b2c57;
+          text-decoration: none;
+          font-weight: bolder;
         }
     
         /* CSS style for page links in top right corner */
@@ -74,11 +76,24 @@
           color: #ee80a8;
           margin-left: 10px;
           text-decoration: none;
+          font-weight: bold;
         }
     
 
         .page-link:hover {
           text-decoration: underline;
+        }
+        .resource{
+          margin: 20px;
+          width: 50%;
+          font-size: large;
+        }
+        .styleImg{
+          border-radius: 30px;
+          position: relative;
+          margin-left: 10%;
+          opacity: 80%;
+
         }
       </style>
        <div class = "navBar">
@@ -94,15 +109,16 @@
 </head>
 <body>
   <h1>Resources for Gender Equality in STEM</h1>
- 
- 
-  <ul>
 <!--Resource List -->
-    <li><a href="https://women.nasa.gov/">Women @ NASA -- </a>If you love the idea of elevating women in space travel, this page is for you! Learn all you can about the incredible women who have contributed their knowledge and skills at NASA.</li>
-    <li><a href="https://www.reddit.com/r/girlsgonewired/">Reddit: Girls Gone Wired --</a> r/girls gone wired is a subreddit "Where girls get their geek on." This subreddit is primarily focused on advice and tips for women in tech.</li>
-    <li><a href="https://girlswhocode.com/">Girls Who Code --</a> This is a non-profit organization focused on recruiting and promoting women in Computer Science. Visit their website for more information on the gender gap, and for info on programs designed for your university!</li>
-    <li><a href="https://www.youtube.com/channel/UCEDkO7wshcDZ7UZo17rPkzQ">Mayuko on Youtube--</a>Mayuko is a YouTuber and Software Engineer who gives us all of the tips we need as women to conquer our jobs in tech! Be sure to check out her video on building your <a href="https://www.youtube.com/watch?v=J5gy9iqjwXM">best resume</a></li>
+    <div class="resource"><a href="https://women.nasa.gov/" target="_blank">Women @ NASA -- </a>If you love the idea of elevating women in space travel, this page is for you! Learn all you can about the incredible women who have contributed their knowledge and skills at NASA.</div>
+    <img src = "./images/NASA-site.png" class = styleImg width="50%" height="auto">
+    <div class="resource"><a href="https://www.reddit.com/r/girlsgonewired/"target="_blank">Reddit: Girls Gone Wired --</a> r/girls gone wired is a subreddit "Where girls get their geek on." This subreddit is primarily focused on advice and tips for women in tech.</div>
+    <img src = "./images/girlsgonewired.png" class = styleImg width="50%" height="auto">
+    <div class="resource"><a href="https://girlswhocode.com/"target="_blank">Girls Who Code --</a> This is a non-profit organization focused on recruiting and promoting women in Computer Science. Visit their website for more information on the gender gap, and for info on programs designed for your university!</div>
+    <img src = "./images/girls_who_code.png" class = styleImg width="50%" height="auto">
+    <div class="resource"><a href="https://www.youtube.com/channel/UCEDkO7wshcDZ7UZo17rPkzQ"target="_blank">Mayuko on Youtube--</a>Mayuko is a YouTuber and Software Engineer who gives us all of the tips we need as women to conquer our jobs in tech! Be sure to check out her video on building your <a href="https://www.youtube.com/watch?v=J5gy9iqjwXM">best resume</a></div>
+    <img src = "./images/mayuko.png" class = styleImg width="50%" height="auto">
     <!-- Add more resources hereee. We should probs format this cuter :PP These bullet points are bleh-->
-  </ul>
+
 </body>
 </html>
