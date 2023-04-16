@@ -4,6 +4,12 @@
     height: 50px;
   
   }
+
+.stats{
+  margin:30px;
+  color:#463348;
+  padding-left: 20px;
+}
   @keyframes crawl {
     0% {
       /* initial position of ladybug */
